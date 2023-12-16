@@ -4,7 +4,7 @@ This directory contains experimental script files to build a disc image for the 
 
 Several files are copied by the scripts directly from fdd and fdd/fs in that directory.
 
-Both linux.cfg and toybox.cfg are symbolic links to configuration files in that same area. They can be deleted and costom cfg files substituted.
+Both linux.cfg and toybox.cfg are symbolic links to configuration files in that same area. They can be deleted and custom cfg files substituted. It will use whichever config files are in the directory pointed to in profile_dir in config.sh.
 
 The image built by these scripts is not guaranteed to be identical to one built with the scripts found in 0.CORE/build.
 
